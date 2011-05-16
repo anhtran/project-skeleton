@@ -103,7 +103,7 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'urls'
 
-TEMPLATE_DIRS = ('/Users/admin/Coding/Django/gitenergy/templates',)
+TEMPLATE_DIRS = (os.path.join(PROJECT_DIR, 'templates'),)
 
 INSTALLED_APPS = (
     'django.contrib.auth',
